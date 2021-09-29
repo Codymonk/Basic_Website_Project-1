@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppins', sans-serif;
+}
+/* <-------------------------------------------Backgroud/gif--------------------------------------------> */
+.hero{
+ min-height: 100vh;
+ width: 100%;
+ background-color: #000;
+ background-image: url(https://i.pinimg.com/originals/79/a3/84/79a384c3c449ad01b0e57e790807b2c0.gif);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 60%;
+ color: #fff;
+ padding: 0 5%;
+ 
+}
+/* <-----------------------------------------Navbar---------------------------------------> */
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px 0px;
+}
+/* <---------------------------------------------logo-----------------------------------------> */
+img{
+ width: 160px;
+}
+nav ul li{
+ display: inline-block;
+ list-style: none;
+ margin: 10px 30px;
+ 
+}
+
+nav ul li a{
+ color: #fff;
+ text-decoration: none;
+ 
+}
+.btn{
+ width: 80px;
+ height: 30px;
+ font-size: 15px;
+ color: #fff;
+ border-radius: 10px;
+ background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ border: none;
+ margin-left: 30px;
+ cursor: pointer;
+ 
+}
+/* <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~middle Content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ --> */
+.hero h1{
+ font-size: 75px;
+ margin-top: 12%;
+
+}
+
+.btn1{
+ background: #393939;
+ border: 0;
+ outline: none;
+ padding: 15px 35px;
+ color: #fff;
+ margin-top: 25px;
+ font-weight: 500;
+ letter-spacing: 1px;
+ cursor: pointer;
+}
+/* <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Dot~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> */
+.indicator span{
+ display: inline-block;
+ background: #3a3a3a;
+ height: 12px;
+ width: 12px;
+ border-radius: 50%;
+ margin-right: 10px;
+ 
+}
+.indicator{
+ margin-top: 15px;
+}
+.indicator span.active{
+ background: #bfbfbf;
+}
+/* <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Right Bottom Content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ --> */
+.cta{
+ position: absolute;
+ width: 25%;
+ min-width: 250px;
+ right: 8%;
+ bottom: 100px;
+}
+.about{
+ background: #fff;
+ height: 90vh;
+ width: 100vw;
+}
+.h1_About{
+ font-size: 50px;
+ align-items: flex-end;
+}
